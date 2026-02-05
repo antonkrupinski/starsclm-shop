@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>STARSCLM</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>StarsCLM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-html, body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: black;
-}
-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-</style>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
 
-<iframe
-    id="site"
-    src="https://starsclm.mysellauth.com/"
-    sandbox="allow-forms allow-scripts allow-same-origin allow-popups"
-    allow="payment; fullscreen">
-</iframe>
+  <iframe
+    src="https://starsclm.mysellauth.com"
+    allow="payment *; fullscreen *"
+    sandbox="allow-same-origin allow-scripts allow-forms allow-popups"
+  ></iframe>
 
 </body>
 </html>
